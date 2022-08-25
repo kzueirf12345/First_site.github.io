@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: black;
+  font-weight: 400;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  background-color: #007765;
+  height: 84px;
+}
+
+main {
+  padding-top: 84px;
+}
+
+.content {
+  height: inherit;
+  max-width: 1100px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 72px;
+  color: white;
+  font-weight: 500;
+}
+
+h2 {
+  margin: 0;
+  font-size: 64px;
+  color: #007765;
+  text-align: center;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*header*/
+header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 45px;
+  margin-left: 20px;
+}
+
+header nav {
+  font-size: 24px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+/*intro*/
+#intro {
+  height: 403px;
+  background-image: url(img/intro_bg.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+#intro .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The Problem */
+#the-problem {
+  background-color: #eee;
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+/*Hero-block*/
+#hero {
+  height: 483px;
+  background-image: url(img/hero_bg.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+#hero .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero span {
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  font-style: italic;
+}
+
+/*PiedPiperCoin*/
+#PiedPiperCoin {
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+#PiedPiperCoin figure {
+  display: flex;
+  justify-content: left;
+  margin: 0;
+}
+
+#PiedPiperCoin figcaption {
+  margin-left: 48px;
+}
+
+#PiedPiperCoin p {
+  margin-bottom: 0;
+}
+
+/*The Team*/
+
+#the-team {
+  background-color: #eee;
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+.avatars {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.avatar {
+  width: 168px;
+  height: 168px;
+}
+
+.name {
+  font-size: 24px;
+  color: #007765;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+}
+
+.job {
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  background-color: #333;
+  height: 176px;
+}
+
+footer .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
